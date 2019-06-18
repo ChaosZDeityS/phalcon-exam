@@ -1,0 +1,2 @@
+Tue 4 13:44:56 DESKTOP-DMOA52S php: [WARNING] Unable to initialize Volt cache dir: C:\Users\SOVIAZ~1\AppData\Local\Temp\phalcon\volt. Used temp path: C:\Users\SOVIAZ~1\AppData\Local\Temp\phalcon\volt
+Tue 4 13:45:54 DESKTOP-DMOA52S php: [ERROR] Uncaught exception: Call to a member function path() on null in C:\phalcon-devtools-master\scripts\Phalcon\Builder\Scaffold.php on line 91

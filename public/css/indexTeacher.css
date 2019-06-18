@@ -1,0 +1,51 @@
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+
+label[for="Note"]
+{
+    display:none;
+}
+
+label[for="Photo"]
+{
+    display:none;
+}
+
+label[for="PrefixNameID"]
+{
+    display:none;
+}
+
+label[for="Address"]
+{
+    display:none;
+}
+
+label[for="Phone"]
+{
+    display:none;
+}
+
+
+label[for="Email"]
+{
+    display:none;
+}
+
+
+
+
+input[type=textarea]{
+    display:none;
+
+}
